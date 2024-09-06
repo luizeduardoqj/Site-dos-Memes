@@ -1,0 +1,126 @@
+body {
+    background-image: url("imagens/background/memes.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Comic Sans MS, cursive;
+    background-color: rgb(255, 255, 255);
+  }
+
+.texto {
+    color: #000000;
+    text-align: center; 
+    width: 70%; 
+    margin: 0 auto; 
+    font-size: 20px; 
+    line-height: 1.5; 
+    word-wrap: break-word; 
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+
+}
+.caixameme {
+    background-color: #ff8ace;
+    border: 10px solid #ffffff; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+h1 {
+  font-size: 2em; 
+  font-weight: bold; 
+  color: #ff8ace; 
+  text-align: center;
+  margin-bottom: 20px; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.cabeca{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem; 
+  font-weight: bold; 
+  color: #ff8ace; 
+  text-align: center; 
+  text-shadow: 3px 3px 0 #fff, -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  
+}
+
+.caixaextra {
+  background-color: #ffa600; 
+  border: 10px solid #ffffff; 
+  padding: 10px;
+  margin-bottom: 20px; 
+}
+
+.extratop {
+  background-color: #ffa600;
+  border: 10px solid #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffd700; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 
+  -1px -1px 1px rgb(255, 255, 255);
+}
+.honroso{
+  background-color: #ffffff;
+  border: 10px #ffe761; 
+  color: #ffffff;
+}
+.caixahonra {
+  background-color: #ffa600;
+  border: 20px solid #ffe761;
+  box-shadow: 0px 5px 15px rgb(240, 255, 37);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  color: #fdf906;
+}
+.final {
+  background-color: #ffa600;
+  color: #fff; 
+  text-align: center;
+  padding: 2px;
+  font-family: Arial, sans-serif;
+
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #ffa600, #f7941d);
+  box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #ff8ace;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  animation: buttonHover 0.5s ease-in-out infinite;
+}
+
+@keyframes buttonHover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
